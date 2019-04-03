@@ -99,7 +99,10 @@ ul {
 
 img {
       position: relative;
-      float: left, justify;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float: centre, justify;
       width:  250px;
       height: 250px;
       background-position: 50% 50%;
@@ -107,3 +110,15 @@ img {
       background-size:     cover;
       border-radius: 50%
 }
+
+.column {
+  float: centre;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
