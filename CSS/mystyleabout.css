@@ -97,4 +97,13 @@ ul {
 
 /* About */
 
+img {
+      position: relative;
+      float: left, justify;
+      width:  250px;
+      height: 250px;
+      background-position: 50% 50%;
+      background-repeat:   no-repeat;
+      background-size:     cover;
+      border-radius: 50%
 }
