@@ -102,9 +102,7 @@ li:last-child {
 }
 
 ul {
+  position: fixed;
   top: 0;
   width: 100%;
-}
-h3 {
-  font-family: cursive;
 }
