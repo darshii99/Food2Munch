@@ -125,11 +125,55 @@ img {
 }
 
 .column1 {
-
+  float: center;
   width: 50%;
   padding: 5px;
 }
 
+
+/* Lets us put text in the middle */
+.person {
+  position: relative;;
+}
+
+/* Allows us to fade the image out */
+.person .image {
+  opacity: 1;
+  transition: .25s ease-in-out;
+  backface-visibility: hidden;
+  padding: 1rem;
+}
+
+/* Causes the image to fade slightly when image is hovered.
+   Also blurs it.
+   0 = invisible, 1 = total visibility */
+.person:hover .image {
+  opacity: 0.9;
+  filter: blur(3px);
+}
+
+
+/* Puts hovered text in the middle */
+.person .info {
+  transition: .25s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+}
+
+/* Causes text to fade IN */
+.person:hover .info {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/*
 .container {
   position: relative;
   width: 50%;
@@ -169,3 +213,4 @@ img {
   font-size: 16px;
   padding: 16px 32px;
 }
+*/
