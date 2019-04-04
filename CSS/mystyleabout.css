@@ -130,6 +130,11 @@ img {
   padding: 5px;
 }
 
+p1 {
+  font-size: 1.5vw;
+  color: rgb(255,255,255)
+}
+
 
 /* Lets us put text in the middle */
 .person {
@@ -172,10 +177,7 @@ img {
   -ms-transform: translate(-50%, -50%);
 }
 
-p1 {
-  font-size: 1.5vw;
-  color: rgb(255,255,255)
-}
+
 
 
 
