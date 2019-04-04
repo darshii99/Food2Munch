@@ -22,8 +22,8 @@
   color: white;
 }
 
-body {
-  background-color: BurlyWood;
+body {;
+  background-color: BlanchedAlmond;
   margin: auto;
   width:100vw;
 }
@@ -75,13 +75,13 @@ li.Inner_List {
 }
 
 h1 {
-  font-family: fantasy;
+  font-family: Papyrus,fantasy;
   font-size: 5vw;
   text-align: center;
 }
 
 h3{
-  font-family: fantasy;
+  font-family: Papyrus,fantasy;
   font-size: 3vw;
   text-align:center;
 }
