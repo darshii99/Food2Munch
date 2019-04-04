@@ -3,12 +3,12 @@ body {
   margin: auto;
 }
 @font-face {
-  font-family: Papyrus,fantasy
+  font-family: 'Montserrat', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Montserrat:300,400);
 }
 .heading{
   text-align: center;
   padding: 1em;
-  font-family: Papyrus,fantasy;
 }
 
 .center {
@@ -31,9 +31,10 @@ body {
 }
 
 .h1 {
-    font-family: Papyrus,fantasy;
-    font-size: 5vw;
-    text-align: center;
+  text-align: center;
+  font-family: 'Montserrat';
+  margin: 0px auto;
+  padding: 3em;
 }
 
 
@@ -172,7 +173,7 @@ img {
 }
 
 p1 {
-  font-size: 5vw;
+  font-size: 1.5vw;
   color: rgb(255,255,255)
 }
 
