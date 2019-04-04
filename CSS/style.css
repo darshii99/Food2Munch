@@ -1,0 +1,107 @@
+/* The bar at the top */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1),
+              0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+/* Sets the entire page background to white */
+.about {
+  background-color: white;
+}
+
+
+/* Container adds padding to the left/right edge. */
+.container {
+  padding: 3rem 0;
+
+  /* This ensures the webpage will reach the bottom of the browser
+     so that there's no ugly gaps. */
+  min-height: calc(100Vh - 11.25rem);
+}
+
+/* Adds some space between images and "Let's meet the team!" */
+.title-text {
+  margin-bottom: 5rem;
+}
+
+
+/* Lets us put text in the middle */
+.person {
+  position: relative;;
+}
+
+/* Allows us to fade the image out */
+.person .image {
+  opacity: 1;
+  transition: .25s ease-in-out;
+  backface-visibility: hidden;
+  padding: 1rem;
+}
+
+/* Causes the image to fade slightly when image is hovered.
+   Also blurs it.
+   0 = invisible, 1 = total visibility */
+.person:hover .image {
+  opacity: 0.8;
+  filter: blur(3px);
+}
+
+
+/* Puts hovered text in the middle */
+.person .info {
+  transition: .25s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+}
+
+/* Causes text to fade IN */
+.person:hover .info {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* Grey section at bottom of page */
+.footer {
+  /*       top, left,  right, bottom*/
+  padding: 3rem 1.5rem 8rem   0;
+  height: 5rem;
+  background-color: #f0f0f0;
+}
+
+/* Adds space between Copyright stuff and the icons */
+.icons {
+  margin-top: 1rem;
+}
+
+/* Resets colors of the social media icons */
+.icons a {
+  color: grey;
+}
+
+/* Causes icons to change color on hover */
+.icons a.facebook:hover {
+  color: #3C5A99;
+}
+.icons a.twitter:hover {
+  color: #38A1F3;
+}
+.icons a.instagram:hover {
+  color: #8a3ab9;
+}
+
+/* Makes the cursor a hand when icons are hovered */
+.icons i {
+  cursor: pointer;
+}
+
+.icons a:not(:last-child) {
+  margin-right: 1rem;
+}
