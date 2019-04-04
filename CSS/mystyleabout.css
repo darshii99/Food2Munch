@@ -125,7 +125,7 @@ img {
 }
 
 .column1 {
-  float: centre;
+
   width: 50%;
   padding: 5px;
 }
@@ -138,8 +138,8 @@ img {
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  width: 300;
+  height: 400;
   transition: .5s ease;
   backface-visibility: hidden;
 }
