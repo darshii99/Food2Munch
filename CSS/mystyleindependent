@@ -1,0 +1,88 @@
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000;
+  color: white;
+}
+
+body {
+  background-color: powderblue;
+  margin: auto;
+  width:100vw;
+}
+
+.Left_of_Class {
+  display: inline;
+  height:500px;
+  width:460px;
+}
+
+img {
+  height: 300px;
+  width: 460px;
+  float:left;
+  margin-left: 15vw;
+}
+
+img:hover {
+          height:315px;
+          width: 483px;
+          transition: 0.8s ease;
+}
+
+.imageframe {
+    background:black;
+    padding:4px;
+    border:1px solid #999;
+  }
+
+.Cafe_Text {
+  display: flex;
+  height:320px;
+  margin-left: 5vw;
+}
+
+div {
+  align-items: center;
+}
+
+li {
+  list-style-type:none;
+}
+ul {
+  padding:5px;
+}
+
+li.Inner_List {
+  list-style-type: disc;
+  margin-left: 50px;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 5vw;
+  text-align: center;
+}
+
+h3{
+  font-family: fantasy;
+  font-size: 3vw;
+  text-align:center;
+}
