@@ -1,101 +1,14 @@
-body {
-  background-color: powderblue;
-  margin: auto;
-}
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(https://fonts.googleapis.com/css?family=Montserrat:300,400);
-}
-.heading{
-  text-align: center;
-  padding: 1em;
+/* The bar at the top */
+.navbar {
+  background-color: white;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1),
+              0 0 0 1px rgba(10, 10, 10, 0.1);
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 50%;
+/* Sets the entire page background to white */
+.about {
+  background-color: white;
 }
-
-.starter-template {
-  font-size: 1em;
-  margin: 0px 10px 0px 10px;
-  padding: 10%;
-}
-
-.col-sm {
-  text-align: center, justify;
-  font-size: 1vw;
-}
-
-.h1 {
-  text-align: center;
-  font-family: 'Montserrat';
-  margin: 0px auto;
-  padding: 3em;
-}
-
-
-.topnav {
-  overflow: hidden;
-  background-color: rgba(0,0,0,0.5);
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #000;
-  color: white;
-}
-
-
-li a {
-  display: block;
-  color: #FFF;
-  width: 60px;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-
-ul {
-  border: 1px solid #555;
-}
-
-li {
-  text-align: center;
-  border-bottom: 1px solid #555;
-}
-
-li:last-child {
-  border-bottom: none;
-}
-
-ul {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* About */
 
 
 /* Container adds padding to the left/right edge. */
@@ -107,29 +20,17 @@ ul {
   min-height: calc(100Vh - 11.25rem);
 }
 
-
 /* Adds some space between images and "Let's meet the team!" */
 .title-text {
   margin-bottom: 5rem;
 }
 
+
 /* Lets us put text in the middle */
 .person {
   position: relative;;
 }
-.image {
-      position: relative;
-      float: left;
-      width:  256px;
-      height: 256px;
-      background-position: 50% 50%;
-      background-repeat:   no-repeat;
-      background-size:     cover;
-  }
 
-
-
-}
 /* Allows us to fade the image out */
 .person .image {
   opacity: 1;
