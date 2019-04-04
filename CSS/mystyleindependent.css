@@ -22,9 +22,8 @@
   color: white;
 }
 
-body {
-  background-image: url("light-coffee.jpg");
-  background-color: BurlyWood;
+body {;
+  background-color: BlanchedAlmond;
   margin: auto;
   width:100vw;
 }
