@@ -38,6 +38,7 @@ img {
   height: 300px;
   width: 460px;
   float:left;
+  margin-left: 15vw;
 }
 
 img:hover {
@@ -62,7 +63,7 @@ div {
 }
 
 li {
-  list-style-type: none;
+  list-style-type:none;
 }
 ul {
   padding:5px;
@@ -75,10 +76,12 @@ li.Inner_List {
 
 h1 {
   font-family: fantasy;
-  font-size: 45px
+  font-size: 5vw;
+  text-align: center;
 }
 
 h3{
   font-family: fantasy;
-  font-size: 36px
+  font-size: 3vw;
+  text-align:center;
 }
