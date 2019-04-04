@@ -9,6 +9,7 @@ body {
 .heading{
   text-align: center;
   padding: 1em;
+  font-family: fantasy;
 }
 
 .center {
@@ -32,7 +33,7 @@ body {
 
 .h1 {
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: fantasy;
   margin: 0px auto;
   padding: 3em;
 }
